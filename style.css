@@ -16,3 +16,16 @@ html {
 	border-color: rgb(0, 255, 0);
 }
 
+.content {
+	margin-left: 200px;
+}
+
+.nav {
+	position: fixed;
+	margin-top: 50px;
+	padding-right: 75px;
+	padding-left: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(0, 0, 0, 0.34);
+}
