@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html> 
+
+
+    <body> 
+
+        <canvas id="myCanvas" width="500" height="400"></canvas> 
+
+        <script language="javascript"> 
+
+            // this is javascript 
+
+            var canvas = document.getElementById("myCanvas"); 
+            
+			if (canvas && canvas.getContext) {             
+            	var c = canvas.getContext('2d'); 
+            } else {
+            	alert("browser doesn't support canvas");
+            }
+            
+			var x = 0;            
+			var up = true;
+			var down = false;	
+			
+			var mouseX, mouseY;
+					
+			function draw() {            
+		
+				if(x <= 0) {
+				   up = true;
+				   down = false;
+				}
+				if(x > 50) {
+					down = true;
+					up = false;
+				}
+				
+				if(down) {
+					x -= 3;
+				}
+				else if (up) {
+					x += 3;
+				}
+				
+				c.fillStyle = "white"; 
+				c.fillRect(0, 0, mouseX, mouseY); 
+		
+				c.fillStyle = "red"; 
+				c.fillRect(x, 0, 500, 400); 
+				
+				c.fillStyle = "green";
+				c.fillRect(x, 0, x, mouseY);
+				
+				c.beginPath();
+				c.strokeStyle = "rgba(255, 255, 10, 0.5)";
+				c.moveTo(0, 0);
+				c.lineTo(100, 100);
+				c.moveTo(30, 40);
+				c.lineTo(340, 340);
+			}
+			
+			
+		window.addEventListener('mousemove', function(event) {
+			mouseX = event.pageX;
+			mouseY = event.pageY;
+		});
+		
+    	
+    	setInterval(draw, 10);
+    	
+        </script> 
+
+    </body> 
+
+
+</html> 
+

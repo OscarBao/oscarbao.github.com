@@ -1,43 +1,6 @@
-html {
-	background-image: url('../data/bg.jpg');
-}
-
 .content {
-	margin-left: 250px;
 	background: rgba(255, 255, 255, 0.4);
 	color: rgb(50, 50, 50);
 	padding: 20px;
 	margin-right: 10%;
-}
-
-.nav {
-	position: fixed;
-	margin-top: 50px;
-	padding-right: 50px;
-	padding-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background: rgba(0, 0, 0, 0.34);
-	font-size: 1.2em;
-}
-
-.nav li {
-	list-style-type: none;
-	padding-bottom: 5px;
-}
-
-.nav a:link, .nav a:visited {
-	background: green;
-	padding-left: 10px;
-	padding-right: 10px;
-	text-decoration: none;
-	color: white;
-}
-
-.nav a:hover {
-	background: white;
-	padding-left: 10px;
-	padding-right: 10px;
-	text-decoration: none;
-	color: green;
 }
