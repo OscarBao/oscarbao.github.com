@@ -5,7 +5,12 @@
 	margin-right: 10%;
 }
 
+#pageTitle {
+	margin-left:250px;
+
+}
+
 .projectImage {
-	width: 200px;
+	width: 250px;
 	height: 300px;
 }
