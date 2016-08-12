@@ -20,6 +20,16 @@ html {
 	margin-left: 250px;
 }
 
+ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	margin-right: 25px;
+}
+
 .nav {
 	position: fixed;
 	margin-top: 50px;
