@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<title>OBao's DPOS-2012 Testing</title>
+			<script src = "jquery.js"></script>
+			<script src = "script.js" type = "text/javascript"></script>
+			<script src = "pjs.js"></script>
+			<link rel = stylesheet type = "text/css" href = "style.css"></link>
+	</head>
+	
+	<body>
+		<span class = "nav">
+		<script>
+			$(document).ready(
+				function() {
+					$('#navigation').load('frags/navigation.frag');
+				}
+			);
+		</script>
+			<ul id = "navigation">
+				
+			</ul>
+		</span>
+	
+		<div class = "content">
+			<button id = "b1" onclick = "writeRandom('boom'), clickWarn('boom')">Wheee!</button>
+				<br/><hr/>
+			<canvas id = "pjs" data-processing-sources = "PVector/PVector.pde"></canvas>
+				<br/><br/>
+			<font color = "white">>></font><span class = "white" id = "boom"></span>
+		</div>
+		
+	</body>
+</html>
