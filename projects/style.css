@@ -10,15 +10,24 @@
 
 }
 
+
 .projectImage {
 	width: 250px;
 	height: 300px;
 }
 
-a:link, a:visited {
+.projectItem a:link, a:visited {
 	text-decoration: none;
 }
 
-a:hover {
+.projectItem a:hover {
 	text-decoration: underline;
+}
+
+li {
+	padding: 5px;
+}
+
+li:hover {
+	background: rgba(255, 255, 255, 0.6);
 }
