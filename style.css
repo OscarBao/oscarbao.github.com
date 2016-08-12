@@ -25,7 +25,7 @@ ul {
 	overflow: hidden;
 }
 
-li {
+li .projectItem {
 	float: left;
 	margin-right: 25px;
 }
