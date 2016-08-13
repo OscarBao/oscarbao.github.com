@@ -34,6 +34,7 @@
 .projectItem a:link, a:visited {
 	padding: 7px;
 	text-decoration: none;
+	text-color: blue;
 }
 
 .projectItem a:hover {
