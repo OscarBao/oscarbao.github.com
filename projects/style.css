@@ -35,6 +35,8 @@
 	padding: 7px;
 	text-decoration: none;
 	font-size: 17px;
+	font-weight: normal;
+	color: blue;
 }
 
 .projectItem a:hover {

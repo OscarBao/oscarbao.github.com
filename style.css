@@ -1,6 +1,7 @@
 html {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 15px;
+	font-weight:lighter;
 }
 
 .white {
@@ -52,7 +53,7 @@ ul {
 	padding-left: 10px;
 	padding-right: 10px;
 	text-decoration: none;
-	color: black;
+	color: blue;
 }
 
 .nav a:hover {
@@ -60,5 +61,5 @@ ul {
 	padding-left: 10px;
 	padding-right: 10px;
 	text-decoration: none;
-	color: green;
+	color: white;
 }
