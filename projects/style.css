@@ -33,11 +33,13 @@
 
 .projectItem a:link, a:visited {
 	padding: 7px;
-	text-decoration: bold;
+	text-decoration: none;
+	font-weight: bold;
 	color: blue;
 }
 
 .projectItem a:hover {
+	font-weight: normal;
 	text-decoration: underline;
 }
 
