@@ -33,7 +33,7 @@
 
 .projectItem a:link, a:visited {
 	padding: 7px;
-	text-decoration: none;
+	text-decoration: bold;
 	color: blue;
 }
 
