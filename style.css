@@ -1,5 +1,6 @@
 html {
-	background-image: url('data/bg.jpg');
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
 }
 
 .white {
@@ -16,8 +17,8 @@ html {
 	border-color: rgb(0, 255, 0);
 }
 
-.content {
-	margin-left: 250px;
+.categorySection {
+	margin-left: 230px;
 }
 
 ul {
@@ -37,7 +38,7 @@ ul {
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background: rgba(0, 0, 0, 0.34);
+	background: rgba(255, 255, 255, 0.34);
 	font-size: 1.2em;
 }
 
@@ -47,7 +48,7 @@ ul {
 }
 
 .nav a:link, .nav a:visited {
-	background: green;
+	background: white;
 	padding-left: 10px;
 	padding-right: 10px;
 	text-decoration: none;
@@ -55,7 +56,7 @@ ul {
 }
 
 .nav a:hover {
-	background: white;
+	background: rgb(200, 200, 200);
 	padding-left: 10px;
 	padding-right: 10px;
 	text-decoration: none;

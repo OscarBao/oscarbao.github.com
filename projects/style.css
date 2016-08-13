@@ -1,7 +1,22 @@
-.content {
-	background: rgba(255, 255, 255, 0.4);
+.categoryContent {
+	border-width: thin medium medium medium;
+	border-style: solid;
+	border-color: rgb(180, 180, 180);
+	border-radius: 0px 0px 10px 10px;
+
+}
+
+.categoryTitle {
+	background: rgba(200, 200, 200, 0.4);
+	border-width: medium medium thin medium;
+	border-style: solid;
+	border-color: rgb(180, 180, 180);
+	border-radius: 10px 10px 0px 0px;
+}
+
+.categorySection {
 	color: rgb(50, 50, 50);
-	padding: 20px;
+	padding: 1px;
 	margin-right: 10%;
 }
 
@@ -17,6 +32,7 @@
 }
 
 .projectItem a:link, a:visited {
+	padding: 7px;
 	text-decoration: none;
 }
 
@@ -24,10 +40,10 @@
 	text-decoration: underline;
 }
 
-li {
-	padding: 5px;
+.categoryContent li {
+	padding: 7px;
 }
 
-li:hover {
-	background: rgba(255, 255, 255, 0.6);
+.categoryContent li:hover {
+	background: rgba(200, 200, 200, 0.6);
 }
