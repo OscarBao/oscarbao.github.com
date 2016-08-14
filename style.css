@@ -39,8 +39,9 @@ ul {
 	border-color: rgb(240, 240, 240);
 	background-color: rgb(230, 230, 230);
 	margin-top: 50px;
+	margin-right:50px;
 	padding-right: 10px;
-	padding-left: 10px;
+	padding-left: 0px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: rgba(255, 255, 255, 0.34);
@@ -54,7 +55,7 @@ ul {
 
 .nav a:link, .nav a:visited {
 	background: white;
-	padding-left: 10px;
+	padding-left: 0px;
 	padding-right: 10px;
 	text-decoration: none;
 	color: blue;
@@ -62,7 +63,7 @@ ul {
 
 .nav a:hover {
 	background: rgb(200, 200, 200);
-	padding-left: 10px;
+	padding-left: 0px;
 	padding-right: 10px;
 	text-decoration: none;
 	color: white;
