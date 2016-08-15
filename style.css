@@ -2,6 +2,7 @@ html {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 15px;
 	font-weight:lighter;
+	background: rgb(245, 245, 245);
 }
 
 .white {
@@ -44,7 +45,6 @@ ul {
 	padding-left: 0px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background: rgba(255, 255, 255, 0.34);
 	font-size: 1.2em;
 }
 
