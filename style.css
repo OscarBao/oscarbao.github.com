@@ -2,6 +2,7 @@ html {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 15px;
 	font-weight:lighter;
+	background: rgb(245, 245, 245);
 }
 
 .white {
@@ -23,6 +24,7 @@ html {
 }
 
 ul {
+	padding-left: 10px;
 	list-style-type: none;
 	overflow: hidden;
 }
@@ -37,14 +39,14 @@ ul {
 	border-style: solid;
 	border-radius: 2px;
 	border-color: rgb(240, 240, 240);
-	background-color: rgb(230, 230, 230);
+	background: rgb(230, 230, 230);
+	margin-left: 20px;
 	margin-top: 50px;
 	margin-right:50px;
-	padding-right: 25px;
+	padding-right: 10px;
 	padding-left: 0px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background: rgba(255, 255, 255, 0.34);
 	font-size: 1.2em;
 }
 
@@ -54,9 +56,9 @@ ul {
 }
 
 .nav a:link, .nav a:visited {
-	background: white;
+	background: none;
 	padding-left: 0px;
-	padding-right: 10px;
+	padding-right: 5px;
 	text-decoration: none;
 	color: blue;
 }
@@ -64,7 +66,7 @@ ul {
 .nav a:hover {
 	background: rgb(200, 200, 200);
 	padding-left: 0px;
-	padding-right: 10px;
+	padding-right: 5px;
 	text-decoration: none;
 	color: white;
 }
