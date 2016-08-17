@@ -47,6 +47,7 @@
 
 .categoryContent li {
 	padding: 7px;
+	padding-left: 9px;
 }
 
 .categoryContent li:hover {
