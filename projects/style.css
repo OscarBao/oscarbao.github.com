@@ -34,6 +34,7 @@
 
 .projectItem a:link, a:visited {
 	padding: 7px;
+	padding-left: 9px;
 	text-decoration: none;
 	font-size: 17px;
 	font-weight: normal;
