@@ -41,11 +41,13 @@
 }
 
 .projectItem a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .categoryContent li {
-	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 3px 7px 7px 12px;
 }
 
 .categoryContent li:hover {
